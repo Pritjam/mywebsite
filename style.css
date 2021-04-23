@@ -1,0 +1,78 @@
+body {
+	padding-left: 11em;
+	color: white;
+	background-color: #20232c;
+}
+h1 {
+	margin: 0;
+}
+h4 {
+	font-size: 24px;
+	color: 	#2dd2d2;
+	padding: 0;
+	margin: 0;
+}
+p {
+	margin: .5em 0;
+}
+div.header {
+	width: 75vw;
+	background-color: #1f0e25;
+	padding: .5em;
+}
+div.upto {
+	margin-top: .8em;
+	width: 75vw;
+	background-color: #0e1f25;
+	padding: .5em;
+}
+div.thing {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 1vw;
+	margin: .5em;
+	font-size: 18px;
+}
+ul.navbar {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	font-size: 24px;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 6em
+}
+ul.navbar li {
+	color: green;
+    background: black;
+    margin: 0.5em 0;
+    padding: 0.1em;
+    border: .1em solid gray;
+	border-left: .5em solid indigo;
+}
+ul.navbar li:hover {
+	background: green;
+}
+
+a:link {
+    color: #66ff00;
+}
+a:visited {
+	color: #66ff00;
+}
+div.projects {
+	display: grid;
+	
+	grid-template-columns: 24vw 24vw 24vw;
+	grid-gap: 1vw;
+	margin-top: .8em;
+	width: 73vw;
+	background-color: #0e1f25;
+	padding: .5em;
+	grid-auto-flow: column;
+}
+div.projects div {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  padding: 20px 10px;
+}
