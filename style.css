@@ -1,37 +1,31 @@
+/* global style */
 body {
 	padding-left: 11em;
-	color: white;
+	color: #cecece;
 	background-color: #20232c;
 }
 h1 {
 	margin: 0;
 }
-h4 {
-	font-size: 24px;
-	color: 	#2dd2d2;
-	padding: 0;
-	margin: 0;
-}
 p {
 	margin: .5em 0;
+	font-size: 18px;
+}
+a:link {
+    color: #66ff00;
+}
+a:visited {
+	color: #6902b3;
+}
+a:hover {
+	color: #2dedb7;
 }
 div.header {
 	width: 75vw;
 	background-color: #1f0e25;
 	padding: .5em;
 }
-div.upto {
-	margin-top: .8em;
-	width: 75vw;
-	background-color: #0e1f25;
-	padding: .5em;
-}
-div.thing {
-	background-color: rgba(0, 0, 0, 0.5);
-	padding: 1vw;
-	margin: .5em;
-	font-size: 18px;
-}
+
 ul.navbar {
 	list-style-type: none;
 	padding: 0;
@@ -43,23 +37,44 @@ ul.navbar {
     width: 6em
 }
 ul.navbar li {
-	color: green;
-    background: black;
+	color: #008000;
+    background: #000000;
     margin: 0.5em 0;
     padding: 0.1em;
-    border: .1em solid gray;
-	border-left: .5em solid indigo;
+    border: .1em solid #808080;
+	border-left: .5em solid #4b0082;
 }
 ul.navbar li:hover {
-	background: green;
+	background: #008000;
 }
-
-a:link {
-    color: #66ff00;
-}
-a:visited {
+ul.navbar li a:visited {
 	color: #66ff00;
 }
+
+div.section {
+	margin-top: .8em;
+	width: 75vw;
+	background-color: #0e1f25;
+	padding: .5em;
+}
+div.section-item {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 1vw;
+	margin: .5em;
+	font-size: 18px;
+}
+
+/* homepage */
+
+h4 {
+	font-size: 24px;
+	color: 	#2dd2d2;
+	padding: 0;
+	margin: 0;
+}
+
+/* projects */
+
 div.projects {
 	display: grid;
 	
