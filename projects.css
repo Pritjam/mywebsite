@@ -1,0 +1,15 @@
+/* projects */
+
+div.projects {
+	display: grid;
+	grid-template-columns: 28vw 28vw 28vw;
+	gap: 1vw;
+	background-color: #0e1f25;
+	grid-auto-flow: row;
+	margin: .5vw
+}
+div.project {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  padding: 1vw;
+}
