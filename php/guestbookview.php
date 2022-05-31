@@ -35,7 +35,7 @@
                     $line = fgetss($book);
                     $toks = explode("\t", $line);
                     if(count($toks) != 3) {
-                        die("Found an incomplete line!");
+                        die("Found an incomplete line! Length of array is ". count($toks));
                     }
                     $output .= $toks[1];
                     $output .= "</td><td>";

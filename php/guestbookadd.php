@@ -8,7 +8,8 @@
     <?php
         $book = fopen("guestbook.txt", "a") or die("Unable to open guestbook for appending!");
         $name = $_POST["name"];
-        fwrite(date("Y-m-d h:i:sa"));
+        fwrite(date("Y-m-d", time()));
+
         fwrite("\t");
         fwrite($book, $name);
         fwrite($book, "\t");
