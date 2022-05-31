@@ -28,22 +28,7 @@
                 <th>Message</th>
                 <th>Timestamp</th>
             </tr>
-		    <!-- <?php
-                $book = fopen("guestbook.txt", "r") or die("Unable to open guestbook for reading!");
-                while(!feof($book)) {
-                    $output = "<tr><td>"
-                    $line = fgetss($book);
-                    $toks = explode("\t", $line);
-                    $output .= $toks[1];
-                    $output .= "</td><td>";
-                    $output .= $toks[2];
-                    $output .= "</td><td>";
-                    $output .= $toks[0];
-                    $output .= "</td></tr>"
-                    echo $output;
-                }
-                fclose($book);
-            ?> -->
+		    
         </table>
 	</div>
 </body>
