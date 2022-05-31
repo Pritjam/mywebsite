@@ -4,6 +4,7 @@ table, th, td {
 }
 th {
     font-weight: bold;
+    text-align: left;
 }
 table {
     width: 100%;
