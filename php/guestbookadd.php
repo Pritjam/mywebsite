@@ -12,11 +12,10 @@
         fwrite($book, $message);
         fwrite($book, "\n");
         fclose($book);
+
+        header("Location: guestbookview.php");
+        exit();
     ?>
-    
-    <script>
-        window.history.back();
-    </script>
 
 </body>
 
