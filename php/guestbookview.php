@@ -42,6 +42,7 @@
                     $output .= "</td></tr>"
                     echo $output;
                 }
+                fclose($book);
             ?>
         </table>
 	</div>
