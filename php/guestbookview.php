@@ -31,7 +31,7 @@
 		    <?php
                 $book = fopen("guestbook.txt", "r") or die("Unable to open guestbook for reading!");
                 while(!feof($book)) {
-                    $output = "<tr><td>"
+                    $output = "<tr><td>";
                     $line = fgetss($book);
                     $toks = explode("\t", $line);
                     if(count($toks) != 3) {
@@ -42,7 +42,7 @@
                     $output .= $toks[2];
                     $output .= "</td><td>";
                     $output .= $toks[0];
-                    $output .= "</td></tr>"
+                    $output .= "</td></tr>";
                     echo $output;
                 }
                 fclose($book);
