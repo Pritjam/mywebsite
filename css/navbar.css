@@ -21,15 +21,3 @@ ul.navbar li {
 ul.navbar li:hover {
 	background: #008000;
 }
-ul.navbar li a:visited {
-	color: #66ff00;
-}
-a:link {
-    color: #66ff00;
-}
-a:visited {
-	color: #6902b3;
-}
-a:hover {
-	color: #2dedb7;
-}

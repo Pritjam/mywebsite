@@ -6,11 +6,24 @@ body {
 }
 h1 {
 	margin: 0;
+	color: #2dd2d2
 }
 p {
 	margin: .5em 0;
 	font-size: 18px;
 }
+
+/* links */
+a:link {
+    color: #66ff00;
+}
+a:visited {
+	color: #66ff00;
+}
+a:hover {
+	color: #2dedb7;
+}
+
 div.header {
 	width: 87vw;
 	background-color: #1f0e25;
