@@ -28,7 +28,7 @@
                 <th>Message</th>
                 <th>Timestamp</th>
             </tr>
-		    <?php
+		    <!-- <?php
                 $book = fopen("guestbook.txt", "r") or die("Unable to open guestbook for reading!");
                 while(!feof($book)) {
                     $output = "<tr><td>"
@@ -43,7 +43,7 @@
                     echo $output;
                 }
                 fclose($book);
-            ?>
+            ?> -->
         </table>
 	</div>
 </body>
