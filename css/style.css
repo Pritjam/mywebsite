@@ -1,12 +1,25 @@
 /* global style */
 body {
-	padding-left: 11em;
+	padding-left: 9.5vw;
 	color: #cecece;
 	background-color: #20232c;
 }
 h1 {
-	margin: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: .5vw;
+	margin: .5vw;
 	color: #2dd2d2
+}
+p.motd {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: .5vw;
+	margin: .5vw;
+}
+
+h2 {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: .5vw;
+	margin: .5vw;
 }
 p {
 	margin: .5em 0;
@@ -27,14 +40,14 @@ a:hover {
 div.header {
 	width: 87vw;
 	background-color: #1f0e25;
-	padding: .5em;
+	padding: .5vw;
 }
 
 div.section {
-	margin-top: .8em;
+	margin: 1vw 0;
 	width: 87vw;
 	background-color: #0e1f25;
-	padding: .5em;
+	padding: .5vw;
 }
 div.section-item {
 	background-color: rgba(0, 0, 0, 0.5);
