@@ -3,9 +3,13 @@
 
 <body>
 
+<!-- TODO: a js script that sanitizes inputs? -->
+
     <?php
-        $book = fopen("guestbook.txt", "a") or die("Unable to open file!");
+        $book = fopen("guestbook.txt", "a") or die("Unable to open guestbook for appending!");
         $name = $_POST["name"];
+        fwrite(date("Y-m-d h:i:sa"));
+        fwrite("\t");
         fwrite($book, $name);
         fwrite($book, "\t");
         $message = $_POST["message"];
