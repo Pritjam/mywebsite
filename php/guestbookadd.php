@@ -10,7 +10,7 @@
         $name = $_POST["name"];
         fwrite(date("Y-m-d", time()));
 
-        fwrite("\t");
+        fwrite("\t ========");
         fwrite($book, $name);
         fwrite($book, "\t");
         $message = $_POST["message"];
