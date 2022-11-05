@@ -6,20 +6,20 @@ body {
 }
 h1 {
 	background-color: rgba(0, 0, 0, 0.5);
-	padding: .5vw;
-	margin: .5vw;
+	padding: .5rem;
+	margin: .5rem;
 	color: #ff0000
 }
 p.motd {
 	background-color: rgba(0, 0, 0, 0.5);
-	padding: .5vw;
-	margin: .5vw;
+	padding: .5rem;
+	margin: .5rem;
 }
 
 h2 {
 	background-color: rgba(0, 0, 0, 0.5);
-	padding: .5vw;
-	margin: .5vw;
+	padding: .5rem;
+	margin: .5rem;
 }
 p {
 	margin: .5em 0;
@@ -38,21 +38,19 @@ a:hover {
 }
 
 div.header {
-	width: 87vw;
 	background-color: #1f0e25;
-	padding: .5vw;
+	padding: .5rem;
 }
 
 div.section {
-	margin: 1vw 0;
-	width: 87vw;
+	margin: 1rem 0;
 	background-color: #0e1f25;
-	padding: .5vw;
+	padding: .5rem;
 }
 div.section-item {
 	background-color: rgba(0, 0, 0, 0.5);
-	padding: 1vw;
-	margin: .5vw;
+	padding: 1rem;
+	margin: .5rem;
 	font-size: 18px;
 }
 

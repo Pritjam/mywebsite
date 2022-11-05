@@ -2,14 +2,14 @@
 
 div.projects {
 	display: grid;
-	grid-template-columns: 28vw 28vw 28vw;
-	gap: 1vw;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 1em;
 	background-color: #0e1f25;
 	grid-auto-flow: row;
-	margin: .5vw
+	margin: .5em
 }
 div.project {
   background-color: rgba(0, 0, 0, 0.5);
   text-align: left;
-  padding: 1vw;
+  padding: 1em;
 }
