@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pritjam</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Prithvi Jamadagni's Webpage</h1>
+        <p class="motd">Howdy, and welcome to my website!</p>
+    </div>
+
+    <!-- Site navigation menu -->
+    <ul class="navbar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../games.html">My Games</a></li>
+        <li><a href="../projects.html">Projects</a></li>
+        <li><a href="../index.html">About Me</a></li>
+    </ul>
+
+    <div class="section">
+        <h2>Randomization</h2>
+        <div class="section-item">
+            <h4>Coin Flipper</h4>
+            <p>Simulates flipping a certain number of coins. Outputs the number that turned up heads.</p>
+            <input type="number" name="coinflipper_count" id="coinflipper_count" placeholder="number of flips">
+			<button type="button" name="coinflipper_submit" id="coinflipper_submit" onclick="flip_n_coins()">Flip the coins!</button>
+            <output type="number" name="coinflipper_out" id="coinflipper_out">Your output will appear here...</output>
+        </div>
+        <!--
+			<div class="section-item">
+				<h4></h4>
+				<p></p>
+			</div>
+			-->
+    </div>
+</body>
+
+</html>
+
+<script>
+    function flip_n_coins() {
+        var num_of_flips = document.getElementById("coinflipper_count").value
+        num_of_flips = parseInt(num_of_flips)
+        var sum = 0
+        for(var i = 0; i < num_of_flips; i++) {
+            if (Math.random() > 0.5) {
+                sum++
+            }
+        }
+        document.getElementById("coinflipper_out").innerHTML = sum
+    }
+</script>
